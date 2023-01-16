@@ -1,0 +1,144 @@
+/* header */
+.header {
+  text-align: center;
+  min-height: 695px;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--header-text);
+  background-color: var(--dark-bg);
+  background-image: url('../images/header/abstract.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center center;
+}
+
+.header__inner {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 140%;
+  margin-bottom: 40px;
+}
+
+.header__title strong {
+  font-size: 60px;
+}
+
+
+.header__title span {
+  color: var(--accent);
+}
+
+.git-btn {
+  height: 50px;
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: var(--black);
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  transition: all .2s ease-in;
+}
+
+.git-btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.git-btn svg {
+  margin-right: 10px;
+}
+
+.git-btn:hover {
+  color: var(--white);
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+.git-btn path {
+  transition: all .2s ease-in;
+}
+
+.git-btn:hover path {
+  fill: var(--white);
+}
+
+
+.git-btn--white {
+  height: 50px;
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  transition: all .2s ease-in;
+}
+
+.git-btn--white svg {
+  margin-right: 10px;
+}
+
+.git-btn--white:hover {
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
+  color: var(--white);
+}
+
+.git-btn--white path {
+  transition: all .2s ease-in;
+}
+
+.git-btn--white:hover path {
+  fill: var(--white);
+}
+
+/* header */
+
+
+/* projects */
+.porjects {
+  padding: 70px 0;
+}
+
+.projects__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.projects__list-item {
+  max-width: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
+  transition: all .3s ease-in;
+}
+
+.projects__list-item:hover {
+  box-shadow: 0px 5px 35px rgba(0, 0, 0);
+}
+
+.projects__list-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--black);
+  padding: 15px 0 25px 20px;
+}
+
+/* projects */

@@ -1,0 +1,17 @@
+:root {
+  /* Light mode */
+  --black: #171718;
+  --black-border: #26292D;
+  --white: #FAFAFA;
+  --blue: #5C62EC;
+  --purple: #884aa0;
+
+  --page-text: var(--black);
+  --dark-bg: var(--black);
+  --dark-border: var(--black-border);
+  --header-text: var(--white);
+  --accent: var(--blue);
+  --addititional: var(--purple);
+  /* Light mode */
+
+}
